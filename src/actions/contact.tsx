@@ -56,7 +56,7 @@ export async function submitEmail(prevState: ActionResponse | null, formData: Fo
 
     return {
       success: true,
-      message: 'We received your message!'
+      message: "We've received your message! We'll be in touch soon."
     }
   } catch (error) {
     console.error('Error submitting message:', error)

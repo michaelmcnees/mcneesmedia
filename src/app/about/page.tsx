@@ -10,8 +10,8 @@ export default function AboutPage() {
           Hannah.
         </p>
         <p>
-          It all started in 2017 in Fort Wayne Indiana helping local businesses create websites and expanded to
-          eventually include technical consulting services.
+          It all started in 2017 with helping local businesses create websites and expanded to eventually include
+          technical consulting services.
         </p>
         <p>
           Starting in 2025 we&apos;ve expanded again to offer our expertise in the areas of Home Theater, Smart Home,

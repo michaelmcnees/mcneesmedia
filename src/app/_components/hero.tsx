@@ -26,10 +26,10 @@ export function Hero() {
               </p>
             </div>
             <div className='space-x-4'>
-              <Button asChild>
+              <Button asChild className='shadow-md shadow-secondary'>
                 <Link href='/contact'>Get in Touch!</Link>
               </Button>
-              <Button variant='outline' asChild>
+              <Button variant='outline' asChild className='shadow-md shadow-secondary'>
                 <Link href='#services'>Our Services</Link>
               </Button>
             </div>

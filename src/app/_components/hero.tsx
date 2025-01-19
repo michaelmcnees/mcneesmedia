@@ -1,8 +1,7 @@
 import { Button } from '@/src/components/ui/button'
 import Link from 'next/link'
 
-const hero =
-  'https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+const hero = '/assets/img/home-theater.jpg'
 
 export function Hero() {
   return (

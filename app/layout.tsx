@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
+import { Toaster } from '@/components/ui/sonner'
 
 import './globals.css'
 
@@ -37,6 +38,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </div>
+        <Toaster richColors />
         <Analytics />
       </body>
     </html>

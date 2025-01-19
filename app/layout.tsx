@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
 
+import localFont from 'next/font/local'
 import { Analytics } from '@vercel/analytics/react'
 
 import { Header } from '@/components/header'

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useSelectedLayoutSegment } from 'next/navigation'
 import { cn } from '../lib/utils'
+import { Phone } from 'lucide-react'
 
 export function Header() {
   const segment = useSelectedLayoutSegment()
@@ -35,6 +36,12 @@ export function Header() {
           })}
           href='/contact'>
           Contact
+        </Link>
+        <Link
+          className='hidden sm:block sm:text-sm font-medium hover:underline underline-offset-4'
+          href='tel:6164044335'>
+          <Phone className='w-4 h-4 inline-block mr-1 opacity-80' />
+          (616) 404-GEEK
         </Link>
       </nav>
     </header>

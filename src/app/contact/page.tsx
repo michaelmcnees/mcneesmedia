@@ -6,11 +6,11 @@ import { toast } from 'sonner'
 import { useActionState, useEffect } from 'react'
 import { BuildingIcon, MailIcon, PhoneIcon } from 'lucide-react'
 
-import { submitEmail } from '@/actions/contact'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { Button } from '@/components/ui/button'
-import { Textarea } from '@/components/ui/textarea'
+import { submitEmail } from '@/src/actions/contact'
+import { Input } from '@/src/components/ui/input'
+import { Label } from '@/src/components/ui/label'
+import { Button } from '@/src/components/ui/button'
+import { Textarea } from '@/src/components/ui/textarea'
 
 const initialState: ActionResponse = {
   success: false,

@@ -1,4 +1,4 @@
-import { CITIES } from '@/lib/const'
+import { CITIES } from '@/src/lib/const'
 import { MapPin } from 'lucide-react'
 
 export function ServiceArea() {

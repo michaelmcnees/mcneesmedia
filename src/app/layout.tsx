@@ -3,9 +3,9 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import { Analytics } from '@vercel/analytics/react'
 
-import { Header } from '@/components/header'
-import { Footer } from '@/components/footer'
-import { Toaster } from '@/components/ui/sonner'
+import { Header } from '@/src/components/header'
+import { Footer } from '@/src/components/footer'
+import { Toaster } from '@/src/components/ui/sonner'
 
 import './globals.css'
 

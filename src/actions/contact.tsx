@@ -3,7 +3,7 @@
 import { z } from 'zod'
 import type { ActionResponse, ContactFormData } from '@/types/contact'
 
-import Template from '@/emails/form-submission'
+import Template from '@/src/emails/contact-form'
 import { Resend } from 'resend'
 import { render } from '@react-email/components'
 

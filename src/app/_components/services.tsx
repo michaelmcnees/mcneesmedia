@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/card'
+import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/src/components/ui/card'
 import { Tv, Home, Settings, Volume2, Laptop } from 'lucide-react'
 
 export function Services() {
